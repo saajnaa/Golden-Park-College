@@ -1,12 +1,46 @@
-# React + Vite
+# Golden Park College
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the official repository for the **Golden Park College** website!  
+This project is dedicated to showcasing my alma mater, where I completed my Diploma in Computer Engineering.
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Golden Park College is a reputed institution offering quality education in various disciplines. This website provides information about the college, its courses, faculty, campus life, and admission procedures.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- College overview and history
+- Details about the Diploma in Computer Engineering program
+- Faculty and staff profiles
+- Admission guidelines
+- Gallery and campus highlights
+- Contact information
+
+## Technologies Used
+
+- **MERN Stack** (MongoDB, Express.js, React.js, Node.js)
+- HTML5, CSS3, JavaScript
+
+## Getting Started
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/golden-park-college.git
+    ```
+2. Install dependencies:
+    ```bash
+    cd golden-park-college
+    npm install
+    ```
+3. Start the development server:
+    ```bash
+    npm start
+    ```
+
+## License
+
+This project is for educational purposes.
+
+---
+
+> Developed with ❤️ by an alumnus of Golden Park College.
