@@ -1,0 +1,63 @@
+
+footer{
+
+position: fixed;
+bottom: 0;
+ width: 100%;
+
+
+
+}
+
+footer p {
+    font-weight: 600;
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 1px;
+}
+
+
+.clg-right span {
+
+    font-weight: bolder;
+    color: rgb(12, 12, 161);
+
+
+}
+
+
+.dev-sec {
+
+
+    margin-top: 2vh;
+
+
+}
+
+
+.dev-sec a {
+
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 2px;
+    color: aliceblue;
+    background-color: blueviolet;
+    border-radius: 45px;
+    text-decoration: none;
+    transition: .4s;
+}
+
+
+.dev-sec a:hover {
+
+    color: black;
+
+}
+
+
+.dev-sec a:active {
+
+    color: rgb(255, 8, 4);
+
+}

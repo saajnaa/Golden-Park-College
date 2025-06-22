@@ -1,10 +1,15 @@
 import React from 'react'
 
-import '../styles/courses.css'
-
-function Courses() {
+const Courses = () => {
   return (
-    <div>Courses</div>
+ <>
+ 
+ <h2>Courses Section</h2>
+
+ 
+
+ 
+ </>
   )
 }
 

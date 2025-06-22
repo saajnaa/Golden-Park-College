@@ -5,7 +5,17 @@ import '../styles/events.css'
 
 function Events() {
   return (
-    <div>Events</div>
+<>
+
+
+<h2>events Section </h2>
+
+
+
+
+
+
+</>
   )
 }
 

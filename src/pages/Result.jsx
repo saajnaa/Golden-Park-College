@@ -5,7 +5,15 @@ import '../styles/result.css'
 
 function Result() {
   return (
-    <div>Result</div>
+ <>
+ 
+ 
+ <h2>Result section</h2>
+ 
+ 
+ 
+ 
+ </>
   )
 }
 

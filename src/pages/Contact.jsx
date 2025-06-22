@@ -8,11 +8,7 @@ function Contact() {
 <>
 
 
-<div>contact page
-  
-</div>
-
-
+<h2>contact page</h2>
 
 </>
 

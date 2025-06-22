@@ -1,76 +1,17 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 
-import { RouterProvider, createBrowserRouter } from "react-router-dom"
+import Navbar from "./component/Navbar"
+import Footer from "./component/Footer"
+
 import './App.css'
 
-import Home from './component/Home'
+import Home from './pages/Home'
 import Courses from "./pages/Courses"
-import Scholarship from './pages/Scholarship'
+import Scholarship from "./pages/Scholarship"
 import Result from './pages/Result'
 import Events from './pages/Events'
 import Contact from './pages/Contact'
 
-import Navbar from "./component/Navbar"
-
-
-const router = createBrowserRouter([
-
-
-  {
-
-    path: "/",
-    element: <Home />
-
-  },
-
-
-
-
-  {
-
-    path: "/home",
-    element: <Home />
-
-  },
-
-  {
-
-    path: "/Courses",
-    element: <Courses />
-
-  },
-
-  {
-
-    path: "/Scholarship",
-    element: < Scholarship />
-
-  },
-
-  {
-
-    path: "/Result",
-    element: <Result></Result>
-
-  },
-
-  {
-
-    path: "/Events",
-    element: <Events></Events>
-
-  },
-
-  {
-
-    path: "/Contact",
-    element: <Contact></Contact>
-
-  }
-
-
-
-
-])
 
 
 
@@ -78,10 +19,30 @@ function App() {
 
 
   return (
-    <>
- 
-      <RouterProvider router={router}></RouterProvider>
+    <><div className="app">
 
+      <BrowserRouter>
+
+        <Navbar></Navbar>
+
+        <Routes>
+
+          <Route path="/" element={<Home />}> </Route>
+          <Route path="/Home" element={<Home />}> </Route>
+          <Route path="/Courses" element={<Courses />}> </Route>
+           <Route path="/Result" element={<Result />}> </Route>
+          <Route path="/Events" element={<Events />}> </Route>
+          <Route path="/Contact" element={<Contact />}> </Route>
+          <Route path="/Scholarship" element={<Scholarship/>}> </Route>
+
+
+
+        </Routes>
+
+        <Footer></Footer>
+
+      </BrowserRouter>
+</div>
 
     </>
   )
