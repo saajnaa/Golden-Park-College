@@ -1,0 +1,123 @@
+.courses-container{
+
+
+margin-top: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 5px;
+
+
+}
+
+
+
+.h2{
+
+
+text-align: center;
+font-size: 2.5vw;
+color: darkblue;
+font-family: sans-serif;
+border-bottom: 1px solid darkgreen;
+border-width: 4px;
+padding-bottom: 4px;
+width: 70%;
+margin: auto;
+
+
+}
+
+
+.courses-section {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding-bottom: 20vh;
+    padding-top: 10px;
+    gap: 30px;
+
+
+}
+
+
+.course {
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 2px 20px 2px;
+    background: #61636121;
+    border-radius: 8px;
+    width: 330px;
+
+}
+
+
+.course img {
+
+    height: 250px;
+    width: 300px;
+    border-radius: 4px;
+
+
+}
+
+.course p {
+
+    font-family: sans-serif;
+    color: darkgreen;
+    font-weight: 600;
+
+
+}
+
+.course .desc {
+    width: 95%;
+    text-align: left;
+    color: rgba(38, 44, 38, 0.562);
+   
+
+}
+
+.button {
+
+    width: 100%;
+    padding: 8px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 14px;
+
+
+}
+
+
+.button button {
+
+
+    padding: 10px 30px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    background: green;
+    color: white;
+
+
+}
+
+
+.button button:hover {
+
+
+    background: #09c548;
+
+
+}
