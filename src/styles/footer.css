@@ -1,8 +1,6 @@
 footer {
 
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+ 
     z-index: 2;
     background: whitesmoke;
     display: flex;
@@ -95,5 +93,40 @@ footer p {
 .dev-sec a:active {
 
     color: rgb(255, 8, 4);
+
+}
+
+
+
+
+/* ======================== media query ====================== */
+
+
+@media only screen and (max-width:412px){
+    
+
+footer{
+
+
+flex-direction: column;
+ gap: 0;
+ padding: 30px 0;
+
+}
+
+
+
+.social-link li{
+
+
+
+    font-size: 28px;
+}
+
+
+
+
+
+
 
 }

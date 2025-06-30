@@ -46,8 +46,7 @@ function Contact() {
         </form>
 
       </div>
-
-      { console.log(handleSubmit)}
+ 
 
 </>
 

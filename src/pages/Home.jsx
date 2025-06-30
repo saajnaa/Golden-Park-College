@@ -1,5 +1,7 @@
 import React from 'react'
 
+import Courses from '../pages/Courses'
+
 import '../styles/home.css'
 
 function Home() {
@@ -19,8 +21,8 @@ function Home() {
 
                     <div className="button">
 
-                        <button on className='button1'>Call Direct</button>
-                        <button on className='button1'>Admission</button>
+                        <button on className='button1'> Admission</button>
+                        <button on className='button1'>Check Result</button>
 
 
                     </div>
@@ -30,21 +32,14 @@ function Home() {
                 </div>
 
 
-                <div className="right">
-                    
-                    {/* <img src={heroimg} alt="sajan image for hero section" /> */}
-                    
-                    
-                    
-                    
-                    </div>
+              
 
 
             </div>
 
 
  
- 
+ <Courses></Courses>
  
  
  </>

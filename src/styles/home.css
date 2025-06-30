@@ -3,10 +3,10 @@
 
     display: flex;
     justify-content: space-between;
-     width: 100%;
-    padding: 59px 10px 20px 10px;
-
-
+    padding: 59px 10px 50px 10px;
+    margin: 10px 0;
+    background: #cae7bec7;
+    border-radius: 4px;
 
 }
 
@@ -101,25 +101,51 @@
 
 
 
-.right {
 
 
+/* ================== media query ============================ */
 
-    width: 25%;
-    margin-right: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.right img {
+@media only screen and (max-width:412px) {
 
 
-    height: 23vw;
-    width: 23vw;
-    border-radius: 100%;
-    border: 3px solid rgb(200, 209, 203);
-    
+    .hero-section {
+        margin: 10px 0;
+        padding: 20px 0 70px 0;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+
+
+    }
+
+
+    .left {
+
+        width: 94%;
+        display: block;
+        margin-left: 0;
+        gap: 0;
+        padding: 0;
+
+    }
+
+    .left h2 {
+
+        margin-top: 10px;
+        font-size: 5.5vw;
+
+    }
+
+    .left p {}
+
+
+    .button {
+
+        margin-top: 10px;
+
+
+    }
+
+
 
 }
