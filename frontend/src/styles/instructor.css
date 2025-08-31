@@ -1,0 +1,27 @@
+.instructors{
+
+
+
+padding: 10px 30px;
+background: #bdb9b963;
+margin: 5px 5px 20px 5px ;
+border-radius: 8px;
+
+}
+
+.instructors h2{
+
+color: rgb(10, 10, 10);
+font-family: sans-serif;
+
+}
+
+.instructors p{
+
+color: rgb(18, 37, 18);
+font-family: sans-serif;
+font-size: 18px;
+font-weight: 600;
+
+
+}

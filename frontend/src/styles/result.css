@@ -1,0 +1,14 @@
+.result{
+
+height: 80vh;
+width: 100%;
+font-family: sans-serif;
+color: darkorange;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: 400;
+font-size: 17px;
+
+}

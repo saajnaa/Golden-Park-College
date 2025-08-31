@@ -1,0 +1,217 @@
+.hero-section {
+
+
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10px 50px 10px;
+    margin: 10px 0;
+    background: #7656b193;
+    border-radius: 4px;
+
+}
+
+.left {
+
+
+    width: 70%;
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 8px;
+
+
+}
+
+
+.left h2 {
+
+
+    font-size: 2.9vw;
+    font-weight: 700;
+    color: rgb(4, 119, 134);
+    padding-left: 8px;
+    font-family: sans-serif;
+
+}
+
+.left h2>span {
+
+
+
+    color: rgb(161, 10, 10);
+    font-size: 2.7vw;
+
+}
+
+.left p {
+
+
+    font-family: sans-serif;
+    font-size: 20px;
+    color: rgb(15, 15, 19);
+    line-height: 25px;
+    margin-top: -10px;
+
+}
+
+
+.button {
+
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    align-items: center;
+    margin-top: 15px;
+    width: 100%;
+
+}
+
+
+.button1 {
+
+
+    font-size: 18px;
+    border: 1px solid gray;
+    padding: 10px 10px;
+    border-radius: 8px;
+    width: 200px;
+    color: whitesmoke;
+    font-weight: 400;
+    font-family: sans-serif;
+    cursor: pointer;
+    background: #050505;
+
+}
+
+.button1:hover {
+
+
+
+    transform: scale(0.98);
+    background: rgb(8, 114, 8);
+
+
+}
+
+/* Right section */
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.right img {
+
+    border-radius: 8px;
+    width: 25vw;
+    height: 30vw;
+
+}
+
+/* Media query */
+
+@media only screen and (max-width:930px) {
+
+
+    .hero-section {
+
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .left h2{
+
+
+font-size: 3.9vw;
+
+    }
+
+    .left h2>span{
+
+font-size: 5vw;
+
+    }
+
+    /* right section */
+
+    .right {
+        display: none;
+
+    }
+
+
+}
+
+/* ================== media query ============================ */
+
+@media only screen and (max-width:412px) {
+
+
+    .hero-section {
+        margin: 10px 0;
+        padding: 20px 0 70px 0;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        background: url('../assets/gpc_logo/gpc_college.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40vh;
+
+
+    }
+
+
+    .left {
+
+        width: 94%;
+        display: block;
+        margin-left: 0;
+        gap: 0;
+        padding: 0;
+
+    }
+
+    .left h2 {
+
+        background: #0a07072c;
+        padding: 30px 20px;
+        border-radius: 10px;
+        color: rgb(65, 179, 245);
+        font-size: 5.5vw;
+    }
+
+    .left h2 span {
+
+        margin-top: 10px;
+        font-size: 5.5vw;
+        color: rgb(189, 27, 27);
+    }
+
+    .left p {
+        display: none;
+        font-size: 16px;
+
+    }
+
+
+
+    .button {
+
+        margin-top: 60px;
+
+
+    }
+
+    .button button {
+        border: none;
+
+    }
+
+
+}

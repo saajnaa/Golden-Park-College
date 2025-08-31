@@ -1,0 +1,214 @@
+.courses-container {
+
+    margin-bottom: 5vh;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2px;
+
+
+
+}
+
+
+
+.h2 {
+
+
+    text-align: center;
+    font-size: 2.5vw;
+    color: rgb(3, 3, 46);
+    font-family: sans-serif;
+    border-bottom: .2px solid rgb(4, 5, 4);
+    width: 70%;
+    margin: auto;
+
+
+}
+
+
+.courses-section {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    padding-top: 10px;
+    gap: 20px;
+
+
+}
+
+
+.course {
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    background: #61636142;
+    border-radius: 8px;
+    width: 280px;
+    gap: 0;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.205);
+}
+
+
+.course img {
+
+    height: 150px;
+    width: 220px;
+    border-radius: 4px;
+
+
+}
+
+.course p {
+
+    font-family: sans-serif;
+    color: rgb(4, 51, 4);
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 2px;
+
+}
+
+.course .desc {
+    width: 95%;
+    text-align: left;
+    color: rgba(38, 44, 38, 0.562);
+
+    margin-top: -6px;
+}
+
+.buttoncourse {
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 8px;
+
+}
+
+
+.buttoncourse button {
+
+
+    padding: 8px 30px;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    background: #010c05;
+    color: white;
+
+
+}
+
+
+.buttoncourse button:hover {
+
+    background: rgb(2, 85, 2);
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* ======================= media query =============================== */
+
+
+@media only screen and (max-width:750px) {
+
+
+
+    .h2 {
+
+
+        font-size: 6vw;
+
+    }
+
+    .course {
+
+        width: 350px;
+
+
+    }
+
+    .course img {
+
+        width: 300px;
+
+    }
+
+    .buttoncourse button {
+
+        font-size: 17px;
+
+
+    }
+
+    .course .desc {
+
+        text-align: center;
+        font-family: sans-serif;
+
+    }
+
+
+}
+
+
+@media only screen and (max-width:412px) {
+
+
+    .h2 {
+
+        font-size: 8vw;
+
+
+    }
+
+    .course{
+
+
+        width: 330px;
+    }
+
+
+    .course img {
+
+        width: 260px;
+
+    }
+
+
+    .buttoncourse {
+
+
+
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+
+
+}

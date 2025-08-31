@@ -1,0 +1,218 @@
+.nav {
+
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(37, 132, 156);
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 12;
+    align-items: center;
+
+
+
+}
+
+.logo {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.logo img {
+
+    height: 50px;
+    width: 50px;
+
+}
+
+
+.logo span {
+
+
+    font-size: 2vw;
+    color: darkblue;
+    font-weight: 700;
+    display: inline;
+    font-family: sans-serif;
+
+}
+
+.nav-links {
+
+
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    text-align: center;
+    gap: 10px;
+    font-size: 20px;
+    margin-right: 15px;
+    list-style: none;
+    padding: 9px;
+
+
+}
+
+
+.active {
+
+
+    background: green;
+    padding: 8px;
+    border-radius: 8px;
+    font-family: sans-serif;
+    color: white;
+ font-size: 16px;
+    text-decoration: none;
+
+
+}
+
+.navlink {
+
+
+    padding: 8px;
+    border-radius: 8px;
+    font-family: sans-serif;
+    color: rgb(10, 10, 12) !important;
+    font-size: 18px;
+    text-decoration: none;
+
+
+}
+
+
+.navlink:hover {
+    text-decoration: underline whitesmoke;
+ 
+
+}
+
+
+
+.mobile-nav-icon {
+
+
+    display: none;
+
+}
+
+
+
+
+
+
+/*============================================ Media query===================================== */
+
+
+@media only screen and (max-width:400px) {
+
+
+
+    .nav {
+
+        padding: 2px 0;
+
+    }
+
+
+    .logo {
+
+        margin-left: 4px;
+
+
+    }
+
+    .logo img {
+
+        width: 17vw;
+        height: 17vw;
+
+
+
+    }
+
+    .logo span {
+
+
+
+        font-size: 8vw;
+
+
+
+    }
+
+
+
+
+    
+}
+
+
+
+@media only screen and (max-width:930px) {
+
+   
+   .logo span{
+
+font-size: 3.2vw;
+
+   }
+   
+   
+    .nav-links {
+
+        border-radius: 4px;
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        top: 80px;
+        background-color: rgb(37, 132, 156);
+        padding: 85px;
+        display: none;
+
+
+
+    }
+
+    
+
+    .mobile-nav-icon {
+
+
+        display: flex;
+        margin-right: 16px;
+        justify-content: center;
+        align-items: center;
+        background: none;
+        border: none;
+        font-size: 35px;
+        color: rgb(4, 4, 88);
+    }
+
+
+    .mobile-nav-icon li {
+
+    
+        list-style-type: none;
+        color: rgb(6, 6, 88);
+
+    }
+
+    .mobile-menu .nav-links {
+
+        display: flex;
+
+
+    }
+
+
+
+}
