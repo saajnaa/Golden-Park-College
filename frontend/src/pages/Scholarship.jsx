@@ -2,7 +2,7 @@ import React from 'react'
 
 import { NavLink } from 'react-router-dom'
 
-import '../styles/scholarship.css'
+import '../styles/Scholarship.css'
 
 const Scholarship = () => {
   return (
