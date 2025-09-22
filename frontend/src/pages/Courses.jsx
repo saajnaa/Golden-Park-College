@@ -1,5 +1,5 @@
 import React from 'react'
-import {useNavigate} from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 
 import Instructor from '../pages/Instructor'
@@ -23,6 +23,7 @@ const courses = [
     "id": 1,
     "image": dcomIMG,
     "Name": "Computer",
+    "navigate":"/Dcom",
     "description": " Diploma In Computer Enginnering is a 3 Years of Courses. Affiliated to ..... "
   },
 
@@ -32,6 +33,7 @@ const courses = [
     "id": 2,
     "image": civilIMG,
     "Name": "Civil",
+    "navigate":"/Civil",
     "description": " Diploma In civil Enginnering is a 3 Years of  Program. Affiliated to...... "
 
 
@@ -43,6 +45,7 @@ const courses = [
     "id": 3,
     "image": ElectricalIMG,
     "Name": "Electrical",
+    "navigate":"/Electrical",
     "description": "Diploma in Electrical Engineering Is a 3 Years Of Courses. Which affiliated To........"
 
 
@@ -56,6 +59,7 @@ const courses = [
     "id": 4,
     "image": haIMG,
     "Name": "Health Assistant",
+    "navigate":"/Ha",
     "description": " Diploma In Health Assistance is a 3 Years Of Courses. Which is affiliated To..... "
 
   }
@@ -64,6 +68,8 @@ const courses = [
 
 
 const Courses = () => {
+
+const navigateToPage = useNavigate();
 
   return (
     <>
@@ -75,22 +81,24 @@ const Courses = () => {
         <div className='courses-section'>
 
 
-          {courses.map(({ id, image, Name, description }) => {
+          {courses.map(({ id, image, Name, navigate, description }) => {
 
 
 
-            return (<div key={id} className="course">
+            return (
 
-              <img src={image} alt="" />
-              <p> {Name} </p>
-              <div className='desc'>{description}</div >
-              <div className="buttoncourse">
-                <button >Learn More</button>
+              <div key={id} className="course">
 
-                <button>Apply</button>
+                <img src={image} alt="" />
+                <p> {Name} </p>
+                <div className='desc'>{description}</div >
+                <div className="buttoncourse">
+                  <button onClick={()=>{navigateToPage(navigate)}}  >Learn More</button>
+
+                  <button>Apply</button>
+                </div>
+
               </div>
-
-            </div>
 
             )
           }
@@ -108,7 +116,7 @@ const Courses = () => {
 
       {/* instructor section */}
 
-<Instructor/> 
+      <Instructor />
     </>
   )
 }

@@ -1,8 +1,10 @@
 import React from 'react'
-
+import { NavLink, useNavigate } from 'react-router-dom'
 
 
 function Electrical() {
+  const navigate = useNavigate();
+
   return (
     <>
       <div className="main">
@@ -32,6 +34,24 @@ function Electrical() {
           </div>
 
         </div>
+
+        <div className="course-button">
+
+          <button>Dawnload Syllabus</button>
+          <button>admission Now </button>
+        </div>
+
+
+        <li>
+          <h2>More Courses</h2>
+          <NavLink className="navlinkDcom" to='/civil'>1. Scholarship for Diploma in Civil Engineering.</NavLink>
+          <NavLink className="navlinkDcom" to='/electrical'>2. Scholarship for Diploma in Electrical Engineering.</NavLink>
+          <NavLink className="navlinkDcom" to='/ha  '>3. Scholarship for Diploma in Health Assistance</NavLink>
+
+
+        </li>
+
+        <button className='gotoCourse' onClick={() => navigate("/courses")} >Go to Courses </button>
 
       </div>
     </>)

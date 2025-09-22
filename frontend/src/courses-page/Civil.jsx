@@ -1,9 +1,12 @@
 import React, { Fragment } from 'react'
- 
+import { NavLink, useNavigate } from 'react-router-dom';
 
 import '../courses-page/courses-page.css'
 
 function Civil() {
+
+  const navigate = useNavigate();
+
   return (
     < React.Fragment>
 
@@ -42,11 +45,24 @@ function Civil() {
           </p>
         </div>
 
+        <div className="course-button">
+
+          <button>Dawnload Syllabus</button>
+          <button>admission Now </button>
+        </div>
 
 
-        <button>Dawnload Syllabus</button>
 
-        <button>admission Now </button>
+        <li>
+          <h2>More Courses</h2>
+          <NavLink className="navlinkDcom" to='/civil'>1. Scholarship for Diploma in Civil Engineering.</NavLink>
+          <NavLink className="navlinkDcom" to='/electrical'>2. Scholarship for Diploma in Electrical Engineering.</NavLink>
+          <NavLink className="navlinkDcom" to='/ha  '>3. Scholarship for Diploma in Health Assistance</NavLink>
+
+
+        </li>
+
+        <button className='gotoCourse' onClick={() => navigate("/courses")} >Go to Courses </button>
 
       </div>
 
