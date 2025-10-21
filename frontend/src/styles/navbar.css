@@ -36,11 +36,17 @@
 .logo span {
 
 
-    font-size: 2vw;
+    font-size: 1.9vw;
     color: darkblue;
     font-weight: 700;
     display: inline;
     font-family: sans-serif;
+
+}
+
+.logo span:hover {
+
+color: rgb(20, 20, 116);
 
 }
 
@@ -81,7 +87,7 @@
     padding: 8px;
     border-radius: 8px;
     font-family: sans-serif;
-    color: rgb(10, 10, 12) !important;
+    color: rgb(3, 3, 73) !important;
     font-size: 18px;
     text-decoration: none;
 

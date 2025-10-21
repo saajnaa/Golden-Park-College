@@ -1,4 +1,6 @@
+import { AiOutlineCopyright } from "react-icons/ai"; 
 import React from 'react'
+import {Link } from 'react-router-dom'
 
 import '../styles/footer.css'
 
@@ -23,10 +25,10 @@ const Footer = () => {
 
           <div className="social-link">
 
-            <li> <FaFacebook /> </li>
-            <li> < FaWhatsapp /></li>
-            <li> < FaXTwitter /> </li>
-            <li> < FaTiktok /> </li>
+            <li> <Link> <FaFacebook /> </Link>  </li>
+            <li> <Link>< FaWhatsapp /> </Link> </li>
+            <li> <Link>< FaXTwitter /> </Link>  </li>
+            <li> <Link>< FaTiktok /> </Link> </li>
 
 
           </div>
@@ -35,11 +37,11 @@ const Footer = () => {
 
         <div className="box">
           <p className="clg-right">
-            <span> Golden Park College</span> ||All Right Reserved.||
+            <span> Golden Park College </span> || <AiOutlineCopyright /> All Right Reserved.||
           </p>
         </div>
 
-        <p className="dev-sec">Developed By <a href="www.sajan1.com.np/">Saaj Naa</a></p>
+        <p className="dev-sec">Developed By <Link to={`https://sajan1.com.np`} target='_blannk'> Saaj Naa</Link></p>
 
 
       </footer>

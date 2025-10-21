@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { NavLink } from 'react-router-dom'
+import { NavLink , useNavigate} from 'react-router-dom'
 import { useState } from 'react'
 
 import { GiHamburgerMenu } from 'react-icons/gi'
@@ -27,6 +27,9 @@ function Navbar() {
 
     }
 
+    // ==========Navigation ============
+const Navigate = useNavigate()
+
 
     return (
         <>
@@ -34,7 +37,7 @@ function Navbar() {
 
 
             <div className="nav">
-                <div className="logo">
+                <div onClick={()=>Navigate('/')} className="logo">
                     <img src={logo} alt="" />
                     <span>Golden Park College</span>
 
@@ -43,8 +46,7 @@ function Navbar() {
                 <div className={toggle ? "mobile-menu" : ""}>
                     <div className="nav-links">
 
-                        <li className="nav-item"><NavLink onClick={() => settoggle(false)} className={({ isActive }) => isActive ? " active" : "navlink"} to='/Home'> Home </NavLink> </li>
-                        <li className="nav-item"><NavLink onClick={() => settoggle(false)} className={({ isActive }) => isActive ? " active" : "navlink"} to='/Courses'> Courses </NavLink> </li>
+                         <li className="nav-item"><NavLink onClick={() => settoggle(false)} className={({ isActive }) => isActive ? " active" : "navlink"} to='/Courses'> Courses </NavLink> </li>
                         <li className="nav-item"><NavLink onClick={() => settoggle(false)} className={({ isActive }) => isActive ? " active" : "navlink"} to='/Scholarship' > ScholarShip  </NavLink></li>
                         <li className="nav-item"><NavLink onClick={() => settoggle(false)} className={({ isActive }) => isActive ? " active" : "navlink"} to='/Result' > Check Result </NavLink></li>
                         <li className="nav-item"><NavLink onClick={() => settoggle(false)} className={({ isActive }) => isActive ? " active" : "navlink"} to='Gallery'> Gallery </NavLink></li>

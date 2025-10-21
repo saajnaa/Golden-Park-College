@@ -35,7 +35,7 @@ export default function TitlebarImageList() {
       <div className="gallery-container">
         <ImageList sx={{ width: 1000, height: 450 }}>
           <ImageListItem key="Subheader" cols={2}>
-            <ListSubheader component="div">Golden Park college Gallery</ListSubheader>
+            <ListSubheader component="div" sx={{fontSize:30, fontWeight:700, color:'darkblue' }}>Golden Park college Gallery</ListSubheader>
           </ImageListItem>
           {itemData.map((item) => (
             <ImageListItem key={item.img}>

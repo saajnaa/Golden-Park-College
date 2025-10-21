@@ -22,5 +22,26 @@ font-size: 17px;
 gap: 4px;
 font-family: sans-serif;
 
+
+}
+
+
+.links{
+
+text-decoration: none;
+width: 400px;
+
+}
+
+.links:hover{
+
+color: green;
+
+}
+
+.links:active{
+
+color: red;
+
 }
  

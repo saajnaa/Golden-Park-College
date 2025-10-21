@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import { NavLink, useNavigate } from 'react-router-dom';
 
-import '../courses-page/courses-page.css'
+import './courses-page.css'
 
 function Civil() {
 

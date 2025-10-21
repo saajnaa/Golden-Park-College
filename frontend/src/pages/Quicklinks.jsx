@@ -12,12 +12,12 @@ function quicklinks() {
 
                 <h2>Quick Links</h2>
                 <div className="link">
-                    <Link to='/courses'>Admission</Link>
-                    <Link to='/gallery'>Gallery</Link>
-                    <Link>Scholarship For Diploma In Computer Engineering</Link>
-                    <Link>Scholarship For Diploma In Civil Engineering</Link>
-                    <Link>Scholarship For Diploma In Electrical Engineering</Link>
-                    <Link>Scholarship For Diploma In Health assistance</Link>
+                    <Link className='links'  to='/courses'>Admission</Link>
+                    <Link className='links'  to='/gallery'>Gallery</Link>
+                    <Link className='links' to='/Dcom' >Scholarship For Diploma In Computer Engineering</Link>
+                    <Link className='links' to='/Civil' >Scholarship For Diploma In Civil Engineering</Link>
+                    <Link className='links' to='/Electrical' >Scholarship For Diploma In Electrical Engineering</Link>
+                    <Link className='links' to='/Ha' >Scholarship For Diploma In Health assistance</Link>
                 </div>
 
 

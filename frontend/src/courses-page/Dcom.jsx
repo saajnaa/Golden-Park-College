@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import { useNavigate, NavLink } from 'react-router-dom';
 
-import '../courses-page/courses-page.css'
+import './courses-page.css'
 
 function Dcom() {
 
@@ -17,7 +17,7 @@ function Dcom() {
 
         <p className='course-intro'> Diploma in Computer Engineering curriculum is designed to produce middle level skilled technician updated with latest skills of computer and information technology with a view
           to cope with the emerging technological change. Many people in the developed, developing
-          and under developed countries have been given emphasis for the broader application of
+         and under developed countries have been given emphasis for the broader application of
           computer. Computer Engineering has been contributing the world for the overall development
           and creating job or employment opportunities in both public and private sectors.
           This curriculum is designed to foster knowledge and skills to the technician required by the

@@ -2,6 +2,9 @@ import React from 'react'
 import { NavLink, useNavigate } from 'react-router-dom'
 
 
+import './courses-page.css'
+
+
 function Electrical() {
   const navigate = useNavigate();
 

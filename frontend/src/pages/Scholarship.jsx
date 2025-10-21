@@ -21,10 +21,10 @@ const Scholarship = () => {
 
 <div className="scholarship">
 
-<li><NavLink className="navlinks" to='/dcom'>Scholarship For Diploma In computer Engineering</NavLink></li>
-<li><NavLink className="navlinks" to='/civil'>Scholarship For Diploma In Civil Engineering</NavLink></li>
-<li><NavLink className="navlinks" to='/electrical' >Scholarship For Diploma In electrical Engineering</NavLink></li>
-<li><NavLink className="navlinks" to='/ha'>Scholarship For Diploma In Health Assistant</NavLink></li>
+<li><NavLink className="navlinks" to='/Dcom'>Scholarship For Diploma In computer Engineering</NavLink></li>
+<li><NavLink className="navlinks" to='/Civil'>Scholarship For Diploma In Civil Engineering</NavLink></li>
+<li><NavLink className="navlinks" to='/Electrical' >Scholarship For Diploma In electrical Engineering</NavLink></li>
+<li><NavLink className="navlinks" to='/Ha'>Scholarship For Diploma In Health Assistant</NavLink></li>
 
 
 

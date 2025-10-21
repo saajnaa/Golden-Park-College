@@ -27,7 +27,7 @@ function Contact() {
 
 
       <div className="form-section">
-        <h2>Send Message</h2>
+        <h2>Contact Golden Park College</h2>
         <form onSubmit={handleSubmit(onSubmit)}>
 
 
